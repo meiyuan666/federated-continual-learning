@@ -27,7 +27,7 @@ def set_task_pool(opt):
     if opt.task_pool == 'non_iid_50':
         opt.datasets    = [0, 1, 2, 3, 4, 5, 6, 7] 
         opt.num_clients = 5
-        opt.num_tasks   = 5
+        opt.num_tasks   = 10
         opt.num_classes = 5
     else:
         print('no correct task_pool was given: {}'.format(opt.task_pool))

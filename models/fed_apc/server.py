@@ -1,9 +1,9 @@
 ##################################
 # Server
-# : initialize multiple clients 
-# and global parameters to be shared.
-# For each communication rounds,
-# it computes aggregation.
+# : at the beginning, it initializes 
+# multiple clients and global parameters
+# For each communication round,
+# it aggregates updates from clients
 ##################################
 __author__ = "Wonyong Jeong, Jaehong Yoon"
 __credits__ = ["Wonyong Jeong", "Jaehong Yoon"]

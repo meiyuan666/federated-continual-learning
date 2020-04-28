@@ -2,10 +2,11 @@
 # Client
 # : actual training model that 
 # learns a sequence of tasks.
-# For each communication rounds,
-# it receives aggregated parameters 
-# at the begining and sends its updates 
-# to server at the end of the training.
+# For each communication round,
+# it receives parameters from server
+# and train on given task. It sends 
+# its updates back to server after 
+# train step is done.
 ##################################
 __author__ = "Wonyong Jeong, Jaehong Yoon"
 __credits__ = ["Wonyong Jeong", "Jaehong Yoon"]
