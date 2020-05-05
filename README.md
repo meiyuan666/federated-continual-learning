@@ -1,6 +1,6 @@
 # Federated Continual Learning
 
-This repo is an implementation of Federated Continual Learning with Adaptive Parameter Communication ([paper](https://arxiv.org/abs/2003.03196)). We propose a novel federated continual learning framework, Federated continual learning with Adaptive Parameter Communication (Fed-APC), which additively decomposes the network weights into global shared parameters and sparse task-specific parameters to minimize interference between incompatible tasks, and also allows inter-client knowledge transfer by communicating the sparse task-specific parameters.
+This is an official implementation of Federated Continual Learning with Adaptive Parameter Communication ([paper](https://arxiv.org/abs/2003.03196)). We propose a novel federated continual learning framework, Federated continual learning with Adaptive Parameter Communication (Fed-APC), which additively decomposes the network weights into global shared parameters and sparse task-specific parameters to minimize interference between incompatible tasks, and also allows inter-client knowledge transfer by communicating the sparse task-specific parameters.
 
 ## Environmental Requirements
 ```bash
